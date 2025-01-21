@@ -56,10 +56,10 @@ metadata:
      owner: Sultan
 spec:
   selector:
-    project: xyz      # Selecting PODs with those Labels
+    project: xyz      
   ports:
     - name      : app-listener
       protocol  : TCP
-      port      : 80  # Port on Load Balancer
-      targetPort: 80  # Port on Pod
+      port      : 80  
+      targetPort: 80  
   type: LoadBalancer
